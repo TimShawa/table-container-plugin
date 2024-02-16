@@ -8,11 +8,29 @@
 
 config_version=5
 
+[addons]
+
+resources_spreadsheet_view/color_rows=true
+resources_spreadsheet_view/color_arrays=true
+resources_spreadsheet_view/array_min_width=128.0
+resources_spreadsheet_view/resource_preview_size=32.0
+resources_spreadsheet_view/clip_headers=false
+resources_spreadsheet_view/dupe_arrays=true
+resources_spreadsheet_view/context_menu_on_leftclick=false
+
 [application]
 
 config/name="Table Container"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ColorPreview/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/script-ide/plugin.cfg", "res://addons/table_container/plugin.cfg")
+
+[plugin]
+
+script-ide/engine_callbacks=true
 
 [rendering]
 

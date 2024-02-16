@@ -1,3 +1,13 @@
+# Development supporting addons
+addons/ColorPreview/
+addons/dictionary_inspector/
+addons/nv.file_system/
+addons/script-ide
+
+# Plugin exclusion
+project.godot
+icon*
+
 # Godot 4+ specific ignores
 .godot/
 
