@@ -1,8 +1,11 @@
+# Temporary files
+addons/data_structure/new_resource.tres
+
 # Development supporting addons
-addons/ColorPreview/
+addons/Todo_Manager/
+addons/ColorPreview/ 
 addons/dictionary_inspector/
 addons/nv.file_system/
-addons/script-ide
 
 # Plugin exclusion
 project.godot
@@ -21,5 +24,5 @@ export_presets.cfg
 
 # Mono-specific ignores
 .mono/
-./data_*/
+#data_*/
 mono_crash.*.json
